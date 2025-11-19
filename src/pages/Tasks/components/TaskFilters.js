@@ -1,3 +1,4 @@
+import { jsx as _jsx } from "react/jsx-runtime";
 // // src/pages/Tasks/components/TaskFilters.tsx
 // import React, { useState } from 'react';
 // import { Filter, X } from 'lucide-react';
@@ -158,3 +159,7 @@
 //   );
 // };
 // export default TaskFilters;
+const TaskFilters = () => {
+    return (_jsx("div", { children: "ss" }));
+};
+export default TaskFilters;
