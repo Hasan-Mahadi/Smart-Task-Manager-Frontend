@@ -11,6 +11,7 @@ import Teams from './pages/Teams/Teams';
 import Projects from './pages/Projects/Projects';
 import Tasks from './pages/Tasks/Tasks';
 
+
 // Protected Route Component
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
