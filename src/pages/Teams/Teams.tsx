@@ -1,4 +1,4 @@
-// src/pages/Teams/Teams.tsx
+
 import React, { useState } from 'react';
 import { Plus, Users, Edit2, Trash2, UserPlus } from 'lucide-react';
 import { useTeams } from '../../hooks/useTeams';

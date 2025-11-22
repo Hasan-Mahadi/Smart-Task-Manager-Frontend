@@ -1,4 +1,4 @@
-// src/services/api.ts
+
 import axios from "axios";
 import toast from "react-hot-toast";
 import {
@@ -164,7 +164,7 @@ export const tasksAPI = {
   },
 };
 
-// Projects API (You'll need to create these endpoints in backend)
+// Projects API 
 export const projectsAPI = {
   getProjectStats: async (projectId: string) => {
     const response = await api.get<{ stats: any }>(

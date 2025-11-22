@@ -1,4 +1,4 @@
-// src/pages/Projects/components/ProjectStatsModal.tsx
+
 import React, { useState, useEffect } from 'react';
 import { X, Users, CheckCircle, Clock, PlayCircle, AlertTriangle } from 'lucide-react';
 import { Project } from '../../../types';

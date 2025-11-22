@@ -1,4 +1,4 @@
-// src/pages/Teams/components/CreateTeamModal.tsx
+
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { X, Plus, Trash2 } from 'lucide-react';
